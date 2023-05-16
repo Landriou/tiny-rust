@@ -1,0 +1,4 @@
+/* Testeamos cuando el compilador dispara un error de numero mal formado*/
+fn main(){
+    I32: prueba = 123s3241;
+}

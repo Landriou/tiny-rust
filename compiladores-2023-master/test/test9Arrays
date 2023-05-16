@@ -1,0 +1,7 @@
+/* Testeamos el uso y el declarado de Arrays */
+
+fn main(){
+    Array I32: a;
+    a = new I32[5+1];
+    a[0] = 1;
+}

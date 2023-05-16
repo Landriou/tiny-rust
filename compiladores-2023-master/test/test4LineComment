@@ -1,0 +1,10 @@
+/* testeamos comentarios en distintas partes del programa */
+
+// Primer comentario
+fn main(){
+    Str: prueba //SegundoComentario;
+    I32: n;
+    n = IO.in_i32();
+
+} // tercer comentario
+// cuarto comentario

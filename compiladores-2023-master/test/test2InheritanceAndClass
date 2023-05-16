@@ -1,0 +1,29 @@
+/* Caso de uso, creado de una clase que hereda de otra clase */
+
+// Clase padre
+
+class Cons : Lista {
+    pub I32: xcar;
+    pub Lista: xcdr;
+    fn isNil() -> Bool{
+        false
+    }
+    create(I32: hd, List: xcdr) {
+    {
+        xcar = hd;
+        self.xcdr = xcdr;
+    }
+}
+
+// Clase hija
+
+class Mundo: Cons {
+    I32: a;
+    pub Str: b;
+    fn get_a()-> I32 { return a; }
+
+    create(){ a = 42;}
+        static fn imprimo_algo()-> void {
+        IO.out_string("hola mundo");
+    }
+}

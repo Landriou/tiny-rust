@@ -1,0 +1,10 @@
+/*Testeamos que lea bien todos los operadores y caracteres especiales*/
+
+fn test_operadores(){
+
+    +-*/%()=
+    <><=>===!=
+    &&||!->.}{,;:[]
+
+
+}

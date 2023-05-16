@@ -1,0 +1,8 @@
+/* Testamos el uso de tipos*/
+
+fn main(){
+    I32: a = 123;
+    Str: b = "123";
+    Bool: c = false;
+    Char: d = 'd';
+}

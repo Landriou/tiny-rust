@@ -1,0 +1,4 @@
+/*Testeamos el uso de la palabra reservada nil*/
+fn main(){
+    I32: a = nil;
+}

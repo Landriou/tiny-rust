@@ -1,0 +1,11 @@
+/* Testeamos que cuando encuentre un caracter inesperado en el codigo, el compilador lo detecte y lo reporte. */
+
+class Mundo {
+    I32: a;
+    pub Str: b;@
+    fn get_a()-> I32 { return a; }
+    create(){ a = 42;}
+    static fn imprimo_algo()-> void {
+        IO.out_string("hola mundo");
+    }
+}

@@ -1,0 +1,11 @@
+/* Testeamos cuando el compilador encuentra un string multilinea,
+ deberia tirar un error e informar que no esta permitido, con la linea y numero de columna
+*/
+
+fn imprimo_numero(I32: num) -> I32{
+        (IO.out_str("f_
+        prueba
+        string multilinea"));
+        (IO.out_int(num));
+        (IO.out_str("="));
+}

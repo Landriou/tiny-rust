@@ -1,0 +1,4 @@
+/*Testeamos el caso cuando un identificador esta malformado*/
+fn main(){
+    I32: prue@ba = 123s3241;
+}

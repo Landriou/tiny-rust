@@ -1,0 +1,8 @@
+/*testeamos el caso de cuando un comentario multilinea nunca se cerro*/
+
+
+
+fn main(){
+    /*este comentario nunca se cerro
+    I32: prueba = 123s3241;
+}

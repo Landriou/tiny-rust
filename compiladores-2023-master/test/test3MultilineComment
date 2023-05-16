@@ -1,0 +1,8 @@
+/* Testeaamos un comentario multilinea que declara una variable en la misma linea */
+class UnaClase {
+    Str: greeting; /* Esta es una prueba
+    de comentario multilinea */ Int32: number;
+    create(Str: greeting) {
+        self.greeting = greeting;
+    }
+}

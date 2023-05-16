@@ -1,0 +1,10 @@
+/*Testeamos el uso de new y return */
+
+fn imprimo_numero(I32: num) -> I32{
+        (IO.out_str("f_"));
+        (IO.out_int(num));
+        (IO.out_str("="));
+        Mundo: c;
+        c = new Mundo();
+        return 0;
+ }
